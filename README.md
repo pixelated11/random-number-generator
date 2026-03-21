@@ -1,1 +1,16 @@
 # Random Number Generator
+This python program is for generating random numbers. You can input the range in which the random number will be pointed out in.
+
+## Downloading
+Just get the binary in the releases page. It's build using pyinstaller. If you want the python program, download the one in the commits.
+
+## Building 
+Clone the repo, then run:
+```bash
+pip install requirements.txt
+```
+To install requirements needed on building this program. Then, run:
+```bash
+pyinstaller program.py
+```
+To build it into an executable file. Or just, run the python file if you don't want the exe.
