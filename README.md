@@ -6,11 +6,23 @@ Just get the binary in the releases page. It's build using pyinstaller. If you w
 
 ## Building 
 Clone the repo, then run:
+**For Windows:**
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
+```
+**For Linux:**
+```bash
+pip install -r requirements.txt --break-system-packages
 ```
 To install requirements needed on building this program. Then, run:
 ```bash
 pyinstaller program.py
 ```
-To build it into an executable file. Or just, run the python file if you don't want the exe.
+To build it into an executable file. Or just, run the python file if you don't want the exe. The program should be in /random-number-generator/dist/programs/
+
+## Running it
+It's as simple as double clicking the file (for Windows). For linux, run:
+```bash
+./program
+```
+And voila.
