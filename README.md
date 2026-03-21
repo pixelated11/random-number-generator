@@ -1,28 +1,35 @@
 # Random Number Generator
 This python program is for generating random numbers. You can input the range in which the random number will be pointed out in.
-
+> [!Warning]
+> You must place the file `program` and `_internal` at the same directory to run the program. Unless, it won't run. (for linux only)
 ## Downloading
 Just get the binary in the releases page. It's build using pyinstaller. If you want the python program, download the one in the commits.
 
 ## Building 
-Clone the repo, then run:
-**For Windows:**
+### For Windows:
+Clone the repo, then run
 ```bash
 pip install -r requirements.txt
 ```
-**For Linux:**
-```bash
-pip install -r requirements.txt --break-system-packages
-```
-To install requirements needed on building this program. Then, run:
+After that, run:
 ```bash
 pyinstaller program.py
 ```
-To build it into an executable file. Or just, run the python file if you don't want the exe. The program should be in /random-number-generator/dist/programs/
-
-## Running it
-It's as simple as double clicking the file (for Windows). For linux, run:
+Your program should be in the dist/programs folder.
+### For Linux:
+Clone repo, then run:
 ```bash
+pip install -r requirements.txt
+```
+Then, run:
+```bash
+pyinstaller program.py
+```
+Locate to `dist/programs` and then do:
+```bash
+chmod +x program
+```
+Then to run it, type in:
+```
 ./program
 ```
-And voila.
