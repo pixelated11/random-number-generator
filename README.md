@@ -6,6 +6,8 @@ This python program is for generating random numbers. You can input the range in
 Just get the binary in the releases page. It's build using pyinstaller. If you want the python program, download the one in the commits.
 
 ## Building 
+> [!Note}
+> I do not make an executable for linux. You need to build the sotware in order to use it in linux.
 ### For Windows:
 Clone the repo, then run
 ```bash
