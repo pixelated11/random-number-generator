@@ -1,5 +1,6 @@
 import random
 import time
+import os
 
 print("Random number generator, by pixelated.")
 time.sleep(2)
@@ -12,3 +13,4 @@ def mainProgram():
     print(random.randrange(x, y))
 
 mainProgram()
+os.system("pause")
