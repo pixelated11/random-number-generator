@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 After that, run this command to build the executable:
 ```bash
-pyinstaller --onefile program.py
+pyinstaller --onefile --noconsole program.py
 ```
 After the building is complete, your executable should be located in the `dists` folder.
 ### For Linux
@@ -39,7 +39,7 @@ pip install -r requirements.txt --break-system-packages
 ```
 After that, try to find the pyinstaller location, and type in this command:
 ```bash
-<pyinstaller-executable> --onefile program.py
+pyinstaller --onefile program.py
 ```
 And your executable should be in the `dists` folder. To run it, just simply type:
 ```bash

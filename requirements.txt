@@ -1,2 +1,4 @@
 pyinstaller==6.19.0 
 # Ofcourse, to build this into a .exe file for ease of access.
+customtkinter==5.2.2
+# For the GUI
