@@ -29,6 +29,9 @@ pyinstaller --onefile --noconsole program.py
 ```
 After the building is complete, your executable should be located in the `dists` folder.
 ### For Linux
+**IMPORTANT!**
+Requirements before building: Tkinter
+Install TKinter GUI library before running the file.
 Open up your terminal, then clone the repository:
 ```bash
 git clone https://github.com/pixelated11/random-number-generator.git
